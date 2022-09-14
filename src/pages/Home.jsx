@@ -64,7 +64,7 @@ const Home = () => {
 
           {/* Stepper Steps */}
           <div className="container mt-4">
-            <div className="mx-4 p-4 px-5 d-flex justify-content-between align-items-center">
+            <div className="mx-4 p-4 px-md-5 d-flex justify-content-between align-items-center">
               {[...steps].map((step, idx) => {
                 return (
                   <>
