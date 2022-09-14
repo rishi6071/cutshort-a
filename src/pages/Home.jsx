@@ -85,7 +85,7 @@ const Home = () => {
                         display: `${idx + 1 === steps.length ? "none" : "initial"}`,
                         flex: "1 1 auto",
                         border: `0.5px solid ${idx + 1 <= currentStep ? "#664DE6" : "lightgrey"}`,
-                        background: "#664DE6",
+                        background: `${idx + 1 <= currentStep ? "#664DE6" : "lightgrey"}`,
                         transition: "all 0.5s",
                       }}
                     ></div>
@@ -94,7 +94,7 @@ const Home = () => {
                         display: `${idx + 1 === steps.length ? "none" : "initial"}`,
                         flex: "1 1 auto",
                         border: `0.5px solid ${idx + 1 < currentStep ? "#664DE6" : "lightgrey"}`,
-                        background: "lightgrey",
+                        background: `${idx + 1 <= currentStep ? "#664DE6" : "lightgrey"}`,
                         transition: "all 0.5s",
                       }}
                     ></div>
